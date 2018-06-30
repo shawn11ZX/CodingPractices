@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class _1_1 {
+public class Q1_1 {
     static public boolean isUnique(String str) {
         boolean[] found = new boolean[256];
         for(int i = 0; i < str.length();i++) {
