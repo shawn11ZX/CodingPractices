@@ -19,15 +19,19 @@ public class Q1_2 {
             return false;
         boolean[] used = new boolean[right.length()];
         for(int i = 0; i < left.length(); i++) {
+            boolean found = false; // original error
             for(int j = 0; j <right.length(); j++) {
-                if(!used[j] && right.charAt(j) == right.charAt(i)) {
+                if(!used[j] && right.charAt(j) == left.charAt(i)) {
                     used[j] = true;
+                    found = true;
                     break;
                 }
                 else {
-                    return false;
+                    //return false; // error
                 }
             }
+            if (!found)
+                return false;
         }
         return true;
     }
