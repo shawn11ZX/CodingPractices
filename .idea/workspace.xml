@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d32cc3bc-01b6-4f54-bfc1-e1f1582e0ad5" name="Default" comment="Q1.2">
-      <change afterPath="$PROJECT_DIR$/src/Q1_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Q1_3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Q1_3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Q1_3Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/tests/Q1_3Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -467,7 +465,7 @@
     <entry file="file://$PROJECT_DIR$/tests/Q1_3Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="43" />
         </state>
       </provider>
     </entry>

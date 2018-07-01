@@ -30,7 +30,7 @@ public class Q1_3Test {
 
     public char[] toChar(String c) {
         char[] rc = c.toCharArray();
-        char[] rc2 = new char[rc.length*3];
+        char[] rc2 = new char[(rc.length+1)*3];
         System.arraycopy(rc, 0, rc2, 0, rc.length);
         return rc2;
     }
