@@ -11,6 +11,7 @@ public class Q1_4Test {
         Assert.assertTrue(Q1_4.isPalindromePermutation("a"));
         Assert.assertTrue(Q1_4.isPalindromePermutation("zz"));
         Assert.assertTrue(Q1_4.isPalindromePermutation("aza"));
+        Assert.assertFalse(Q1_4.isPalindromePermutation("aza "));
         Assert.assertTrue(Q1_4.isPalindromePermutation("abba"));
         Assert.assertFalse(Q1_4.isPalindromePermutation("abc"));
     }
@@ -21,6 +22,7 @@ public class Q1_4Test {
         Assert.assertTrue(Q1_4.isPalindromePermutation2("a"));
         Assert.assertTrue(Q1_4.isPalindromePermutation2("zz"));
         Assert.assertTrue(Q1_4.isPalindromePermutation2("aza"));
+        Assert.assertTrue(Q1_4.isPalindromePermutation2("aza "));
         Assert.assertTrue(Q1_4.isPalindromePermutation2("abba"));
         Assert.assertFalse(Q1_4.isPalindromePermutation2("abc"));
     }

@@ -2,27 +2,28 @@ import java.util.HashMap;
 
 public class Q1_4 {
     static public boolean isPalindromePermutation(String str) {
-        HashMap<Character, Integer> occurances = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> occurrences = new HashMap<Character, Integer>();
         for(Character c : str.toCharArray()) {
-            Integer i = occurances.get(c);
+            Integer i = occurrences.get(c);
             if (i == null)
-                occurances.put(c, 1);
+                occurrences.put(c, 1);
             else
-                occurances.remove(c);
+                occurrences.remove(c);
         }
-        return occurances.size() == 0 || occurances.size() == 1;
+        return occurrences.size() == 0 || occurrences.size() == 1;
     }
 
-    static public void toggle(int bits, int index) {
-        int mask = ~(1 << index);
+    static public int toggle(int bits, int index) {
+        int mask = (1 << index);
         bits ^= mask;
+        return bits;
     }
     static public boolean isPalindromePermutation2(String str) {
         int bits = 0;
         for(char c: str.toCharArray()) {
             int idx = getCharIndex(c);
             if (idx >= 0 && idx <= 26) {
-                toggle(bits, idx);
+                bits = toggle(bits, idx);
             }
         }
         return bits == 0 || (bits & (bits - 1)) == 0;
