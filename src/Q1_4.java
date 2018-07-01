@@ -1,5 +1,10 @@
 import java.util.HashMap;
 
+/**
+ * - only alphabet characters are allowed in words.
+ * - space character is not counted.
+ * - no capital alphabet character is allowed.
+ */
 public class Q1_4 {
     static public boolean isPalindromePermutation(String str) {
         HashMap<Character, Integer> occurrences = new HashMap<Character, Integer>();

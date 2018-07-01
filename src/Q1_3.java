@@ -1,3 +1,6 @@
+/**
+ * to convert String to char[], the length of char[] should be (str.length+1) * 3 to allow ending '\0'
+ */
 public class Q1_3 {
     static public char[] URLify(char[] str) {
         int blankCount = 0;
