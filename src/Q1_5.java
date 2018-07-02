@@ -18,7 +18,7 @@ public class Q1_5 {
                     return false;
             }
         }
-        return true;
+        return diffCount == 1;
     }
 
     private static boolean isOneWayByInsert(String shorter, String longer) {
