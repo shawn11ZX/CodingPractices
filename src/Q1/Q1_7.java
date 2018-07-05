@@ -1,5 +1,9 @@
 package Q1;
 
+/**
+ * should consider size of odd and even number
+ *
+ */
 public class Q1_7 {
     static class Matrix {
         public Matrix(int [] data, int n) {
@@ -29,14 +33,18 @@ public class Q1_7 {
     static public void rotate(Matrix m)
     {
         int n = m.getN();
-        for(int i = 0; i < n/2; i++)
-            for (int j = 0; j < n/2; j++)
+
+        // if even size, only (n/2, n/2) is needed
+        // if odd size, a little bit complicated for we should not (n+1)/2, (n+1)/2 will rotate twice for some positions
+        for(int i = 0; i < (n+1)/2; i++)
+            for (int j = 0; j < (n)/2; j++)
             {
-                int temp = m.getItem(i, j);
-                m.setItem(i, j, m.getItem(i, n-j-1));
-                m.setItem(i, n-j-1, m.getItem(n-j-1, n-j-1));
-                m.setItem(n-i-1, n-j-1, m.getItem(n-i-1, j));
-                m.setItem(n-j-1, j, temp);
+                    int temp = m.getItem(i, j);
+                    m.setItem(i, j, m.getItem(j, n - i - 1));
+                    m.setItem(j, n - i - 1, m.getItem(n - i - 1, n - j - 1));
+                    m.setItem(n - i - 1, n - j - 1, m.getItem(n - j - 1, i));
+                    m.setItem(n - j - 1, i, temp);
+
             }
     }
 
