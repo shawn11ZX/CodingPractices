@@ -1,3 +1,6 @@
+package Q1;
+
+import Q1.Q1_1;
 import org.junit.Assert;
 
 public class Q1_1Test {

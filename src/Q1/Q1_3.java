@@ -1,3 +1,5 @@
+package Q1;
+
 /**
  * to convert String to char[], the length of char[] should be (str.length+1) * 3 to allow ending '\0'
  */

@@ -1,3 +1,5 @@
+package Q1;
+
 import java.util.HashMap;
 
 public class Q1_1 {

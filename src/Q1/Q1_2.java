@@ -1,3 +1,5 @@
+package Q1;
+
 public class Q1_2 {
     static public boolean isSamePermutation(String left, String right) {
         int [] count = new int[256];

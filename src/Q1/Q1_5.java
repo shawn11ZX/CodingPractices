@@ -1,3 +1,5 @@
+package Q1;
+
 public class Q1_5 {
     public static boolean isOneWay(String left, String right) {
         if (left.length() == right.length())

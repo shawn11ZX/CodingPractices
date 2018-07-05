@@ -1,3 +1,5 @@
+package Q1;
+
 public class Q1_6 {
     public static String compress(String str) {
         StringBuilder sb = new StringBuilder();
