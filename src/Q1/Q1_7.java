@@ -2,7 +2,8 @@ package Q1;
 
 /**
  * should consider size of odd and even number
- *
+ * one better simplification is to treat the matrix Mn*n as an union of n/2 layers.
+ * the outer most layer is composed of 4 pieces, each with size of n-1
  */
 public class Q1_7 {
     static class Matrix {
