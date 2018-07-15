@@ -15,9 +15,11 @@ public class Q2_6 {
         }
         if ((len % 2) == 1)
             cur = cur.next;
-        while(cur != null)
-            if(cur.data != stack[--stackTop])
+        while(cur != null) {
+            if (cur.data != stack[--stackTop])
                 return false;
+            cur = cur.next;
+        }
         return true;
     }
 
