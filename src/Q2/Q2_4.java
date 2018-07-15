@@ -37,6 +37,8 @@ public class Q2_4 {
             }
             cur = next;
         }
+        if (large != null)
+            large.next = null;
         return small;
     }
 }
