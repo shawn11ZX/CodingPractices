@@ -5,12 +5,19 @@ public class Q2_5 {
         ListNode prev = null, head = null;
         int carry = 0, sum = 0;
         while(l != null || r != null) {
-            if(l!= null && r != null)
+            if(l!= null && r != null) {
                 sum = l.data + r.data + carry;
-            else if( l != null)
+                l = l.next;
+                r = r.next;
+            }
+            else if( l != null) {
                 sum = l.data + carry;
-            else
+                l = l.next;
+            }
+            else {
                 sum = r.data + carry;
+                r = r.next;
+            }
             carry = sum / 10;
             prev = append(prev, sum % 10);
             if (head == null) head = prev;
