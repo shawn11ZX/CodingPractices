@@ -4,9 +4,8 @@ public class Q2_7 {
     public static ListNode intersect(ListNode left, ListNode right) {
         int leftCount = 0;
         int rightCount = 0;
-        ListNode leftLast = null;
-        ListNode rightLast = null;
-        leftLast = left;
+        ListNode leftLast = left;
+        ListNode rightLast = right;
         while(leftLast != null && leftLast.next != null)
         {
             leftLast = leftLast.next;
