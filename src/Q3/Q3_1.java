@@ -49,7 +49,7 @@ public class Q3_1 {
             }
             public int pop() {
                 if (top > 0)
-                    return data[--top];
+                    return data[start + --top];
                 else
                     throw new IllegalStateException("empty");
             }
