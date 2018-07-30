@@ -1,6 +1,6 @@
 package Q3;
 
-import sun.plugin.dom.exception.InvalidStateException;
+import java.lang.IllegalStateException;
 
 public class Q3_3 {
     public static class Stack {
@@ -23,7 +23,7 @@ public class Q3_3 {
         }
         public int pop() {
             if (top == 0)
-                throw new InvalidStateException("empty");
+                throw new IllegalStateException("empty");
             return data[--top];
         }
     }
@@ -57,6 +57,8 @@ public class Q3_3 {
         }
         public int pop()
         {
+            if (top >= stacks.length)
+                top = stacks.length -1;
             while(top >= 0) {
                 if (stacks[top] == null)
                     top--;
@@ -65,7 +67,7 @@ public class Q3_3 {
                 else
                     return stacks[top].pop();
             }
-            throw new InvalidStateException("empty");
+            throw new IllegalStateException("empty");
         }
         public boolean isEmpty() {
             return (top == 0 && (stacks[top] == null || stacks[top].isEmpty()));
@@ -75,7 +77,7 @@ public class Q3_3 {
         }
         public int popAt(int i){
             if (stacks[i] == null || stacks[i].isEmpty())
-                throw new InvalidStateException("empty");
+                throw new IllegalStateException("empty");
             return stacks[i].pop();
         }
     }
