@@ -11,8 +11,10 @@ public class Q4_3 {
         List<TreeNode> curList = new ArrayList<>();
         if(root == null)
             return rc;
-        else
+        else {
             curList.add(root);
+            rc.add(curList);
+        }
         List<TreeNode> nextList = new ArrayList<>();
         do {
             for(TreeNode n : curList)
