@@ -11,4 +11,14 @@ public class BinaryTreeNode {
         int rightHeight = (right!= null) ? right.getHeight() : 0;
         return Math.max(leftHeight, rightHeight) + 1;
     }
+
+    public BinaryTreeNode(int value, BinaryTreeNode left, BinaryTreeNode right) {
+        this.value = value;
+        this.left = left;
+        this.right = right;
+    }
+
+    public BinaryTreeNode() {
+
+    }
 }

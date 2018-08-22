@@ -17,10 +17,8 @@ public class Q4_4 {
         Result l = isBalanced(root.left);
         Result r = isBalanced(root.right);
         int d = Math.max(l.depth, r.depth) + 1;
-        if (!l.b || !r.b)
-            return new Result(false, d);
         int diff = l.depth - r.depth;
-        if (diff > -1 && diff < 1)
+        if (l.b && r.b && diff >= -1 && diff <= 1)
             return new Result(true, d);
         else
             return new Result(false, d);
