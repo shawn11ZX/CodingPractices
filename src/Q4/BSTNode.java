@@ -5,6 +5,7 @@ public class BSTNode {
     public int v;
     BSTNode left;
     BSTNode right;
+    BSTNode parent;
 
     public BSTNode(int k, int v) {
         this.k = k;
@@ -30,10 +31,14 @@ public class BSTNode {
             return new BSTNode(k, v);
         else if (k <= root.k) {
             root.left = insert(root.left, k, v);
+            if(root.left != null)
+                root.left.parent = root;
             return root;
         }
         else {
             root.right = insert(root.right, k, v);
+            if(root.right != null)
+                root.right .parent = root;
             return root;
         }
     }
@@ -77,6 +82,10 @@ public class BSTNode {
                 LargestResult rc = removeLargest(root.left);
                 rc.largest.left = rc.newRoot;
                 rc.largest.right = root.right;
+                if(rc.largest.right != null)
+                    rc.largest.right.parent = root;
+                if(rc.largest.left != null)
+                    rc.largest.left.parent = root;
                 return rc.largest;
             }
             else if(root.left != null) {
@@ -93,11 +102,34 @@ public class BSTNode {
         else if (k <= root.k)
         {
             root.left = delete (root.left, k);
+            if(root.left != null)
+                root.left.parent = root;
             return root;
         }
         else {
             root.right = delete (root.right, k);
+            if(root.right != null)
+                root.right.parent = root;
             return root;
+        }
+    }
+
+    public static BSTNode next(BSTNode node) {
+        if (node == null)
+            return null;
+        if (node.right != null)
+            return node.right;
+        else {
+            BSTNode parent = node.parent;
+            while(parent != null)
+            {
+                if (parent.left == node)
+                    return parent;
+
+                node = parent;
+                parent = parent.parent;
+            }
+            return null;
         }
     }
 }
