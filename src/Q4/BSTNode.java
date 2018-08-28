@@ -118,7 +118,12 @@ public class BSTNode {
         if (node == null)
             return null;
         if (node.right != null)
-            return node.right;
+        {
+            node = node.right;
+            while (node.left != null)
+                node = node.left;
+            return node;
+        }
         else {
             BSTNode parent = node.parent;
             while(parent != null)
