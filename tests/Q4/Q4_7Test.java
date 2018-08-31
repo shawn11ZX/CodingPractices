@@ -30,6 +30,21 @@ public class Q4_7Test {
         Assert.assertArrayEquals(new Object[]{4, 5, 3, 2, 1}, order.toArray());
     }
 
+    @Test
+    public void test3() {
+        Q4_7.DependencyGraph<Integer> dg = new Q4_7.DependencyGraph<>();
+        dg.addDependency(1, 2);
+        dg.addDependency(2, 3);
+        dg.addDependency(3, 4);
+        dg.addDependency(3, 5);
+        dg.addDependency(6, 3);
+        dg.addDependency(7, 6);
+        dg.addDependency(7, 1);
+        List<Integer> order = new ArrayList<>();
+        Assert.assertTrue(dg.buildAll(order));
+
+    }
+
 
     @Test
     public void testFail() {
@@ -46,6 +61,16 @@ public class Q4_7Test {
         dg.addDependency(1, 2);
         dg.addDependency(2, 3);
         dg.addDependency(3, 1);
+        List<Integer> order = new ArrayList<>();
+        Assert.assertFalse(dg.buildAll(order));
+    }
+
+    @Test
+    public void testFail3() {
+        Q4_7.DependencyGraph<Integer> dg = new Q4_7.DependencyGraph<>();
+        dg.addDependency(1, 2);
+        dg.addDependency(2, 3);
+        dg.addDependency(3, 2);
         List<Integer> order = new ArrayList<>();
         Assert.assertFalse(dg.buildAll(order));
     }
