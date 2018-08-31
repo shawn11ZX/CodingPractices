@@ -1,7 +1,7 @@
 ## List iteration
     forget to set cur = cur.next in loops
 ## 4.6 Successor in Binary Search Tree
-    - If N has right, it's successor is **NOT** the root of right, but the most left element of it's right
+    - If N has right, it's successor is *NOT* the root of right, but the most left element of it's right
     - If N has no right, it's successor is the nearest parent/grandparent who's left sub tree contains N.
 ## 4.7 Dependency Graph
     - Don't forget to mark & clean states: building & built
