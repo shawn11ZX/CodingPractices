@@ -19,15 +19,23 @@ public class Q4_7 {
         }
 
         public boolean build(Node n, List<T> order) {
+            if (n.built)
+                return true;
+
             if (n.building)
                 return false;
+
             n.building = true;
             for(Node c: n.deps) {
-                if (!c.built)
-                    build(c, order);
+                if (!c.built) {
+                    if (!build(c, order)) {
+                        return false;
+                    }
+                }
             }
             order.add(n.k);
             n.built = true;
+            n.building = false;
             return true;
         }
         public boolean buildAll(List<T> order) {
