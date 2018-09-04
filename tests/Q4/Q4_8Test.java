@@ -23,4 +23,18 @@ public class Q4_8Test {
             Assert.assertTrue(mid == Q4_8.commonAncestor(left, right));
         }
     }
+    @Test
+    public void testfindCommonAncestorNoParent() {
+        BSTNode root = null;
+        root = BSTNode.insert(root, 1, 101);
+        root = BSTNode.insert(root, 3, 103);
+        root = BSTNode.insert(root, 4, 104);
+        root = BSTNode.insert(root, 5, 105);
+        root = BSTNode.insert(root, 2, 102);
+        root = BSTNode.insert(root, 6, 106);
+        root = BSTNode.insert(root, 7, 106);
+        {
+            Assert.assertTrue(3 == Q4_8.findCommonAncestorNoParent(root, 5, 2).v);
+        }
+    }
 }
