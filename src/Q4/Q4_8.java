@@ -59,8 +59,8 @@ public class Q4_8 {
     public static BSTNode findCommonAncestorNoParent(BSTNode root, int left, int right) {
         List<BSTNode> leftPath = new ArrayList<>();
         List<BSTNode> rightPath = new ArrayList<>();
-        boolean leftFound = findPath(root.left, left, leftPath);
-        boolean rightFound = findPath(root.right, right, rightPath);
+        boolean leftFound = findPath(root, left, leftPath);
+        boolean rightFound = findPath(root, right, rightPath);
         if (leftFound && rightFound)
         {
             BSTNode rc = null;
