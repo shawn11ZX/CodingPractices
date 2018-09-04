@@ -13,7 +13,7 @@ public class Q4_9 {
             ArrayList<ArrayList<Integer>> result)
     {
         if(leftIndex == left.size() || rightIndex == right.size()) {
-            ArrayList<Integer> l = new ArrayList<>();
+            ArrayList<Integer> l = new ArrayList<>(work);
             for (int i = leftIndex; i < left.size(); i++) {
                 l.add(left.get(i));
             }
@@ -21,6 +21,7 @@ public class Q4_9 {
                 l.add(right.get(i));
             }
             result.add(l);
+            return;
         }
         work.push(left.get(leftIndex));
         weave(left, right, work, leftIndex+1, rightIndex, result);
@@ -34,6 +35,14 @@ public class Q4_9 {
     public static ArrayList<ArrayList<Integer>> allSequences(BSTNode root) {
         if(root == null)
             return new ArrayList<>();
+        else if (root.left == null && root.right == null)
+        {
+            ArrayList<ArrayList<Integer>> rc = new ArrayList<>();
+            ArrayList<Integer> l = new ArrayList<>();
+            l.add(root.k);
+            rc.add(l);
+            return rc;
+        }
         ArrayList<ArrayList<Integer>> leftSeq = allSequences(root.left);
         ArrayList<ArrayList<Integer>> rightSeq = allSequences(root.right);
 

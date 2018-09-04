@@ -19,5 +19,7 @@ public class Q4_9Test {
         root = BSTNode.insert(root, 3, 104);
         ArrayList<ArrayList<Integer>> rc = Q4_9.allSequences(root);
         Assert.assertTrue(rc.size() == 2);
+        Assert.assertArrayEquals(new Object[] {2, 1, 3}, rc.get(0).toArray());
+        Assert.assertArrayEquals(new Object[] {2, 3, 1}, rc.get(1).toArray());
     }
 }
