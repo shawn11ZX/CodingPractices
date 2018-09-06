@@ -13,3 +13,7 @@
         - Depth: The depth of a node is the number of edges from the tree's root node to the node. Depth of root is zero
     - Common Ancestor
         - In BST, it is NOT true that common ancestor of node 3 and 5 is 4
+        
+## 4.9 BST Sequences
+    - To simplify push/pop use Stack<T>, which can be an argument to ArrayList<T> 
+    - The constructor of ArrayList<Integer> is ambigous.   

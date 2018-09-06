@@ -7,6 +7,13 @@ public class BSTNode {
     BSTNode right;
     BSTNode parent;
 
+
+    public BSTNode(int k, BSTNode left, BSTNode right) {
+        this.k = k;
+        this.v = k;
+        this.left = left;
+        this.right = right;
+    }
     public BSTNode(int k, int v) {
         this.k = k;
         this.v = v;
