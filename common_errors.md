@@ -19,4 +19,7 @@
     - The constructor of ArrayList<Integer> is ambigous.
     
 ## 4.10 subtree
-    - empty tree is subtree of any tree including itself   
+    - empty tree is subtree of any tree including itself
+    
+## 4.11 tree random node
+    - Random.nextInt maybe negative, use nextInt(bound) instead of nextInt() % bound   

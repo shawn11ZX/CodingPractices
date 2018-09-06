@@ -17,6 +17,13 @@ public class Q4_11Test {
         root = BSTNode.insert(root, 6, 106);
         root = BSTNode.insert(root, 7, 106);
 
+        Q4_11.Param p = new Q4_11.Param();
+        p.n = 0;
+        Assert.assertTrue(Q4_11.getNth(root, p).k ==1);
+
+        p.n = 6;
+        Assert.assertTrue(Q4_11.getNth(root, p).k ==7);
+
         Assert.assertTrue(Q4_11.random(root) != null);
     }
 }

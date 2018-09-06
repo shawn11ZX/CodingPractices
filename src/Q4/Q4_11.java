@@ -8,14 +8,16 @@ public class Q4_11 {
     }
     public static BSTNode random(BSTNode root) {
         Random rand = new Random();
-        int n = rand.nextInt() % BSTNode.getSize(root);
+        int n = rand.nextInt(BSTNode.getSize(root));
         Param param = new Param();
         param.n = n;
+        System.out.print("random: "  + n);
         return getNth(root, param);
     }
 
-    private static BSTNode getNth(BSTNode root, Param param) {
-
+    public static BSTNode getNth(BSTNode root, Param param) {
+        if (root == null)
+            return null;
         if (param.n == 0 )
             return root;
         param.n -= 1;
