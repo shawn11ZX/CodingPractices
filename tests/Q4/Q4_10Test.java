@@ -68,6 +68,6 @@ public class Q4_10Test {
                         null,
                         null),
                 null);
-        Assert.assertFalse(Q4_10.isSubTree(large, small));
+        Assert.assertTrue(Q4_10.isSubTree(large, small));
     }
 }

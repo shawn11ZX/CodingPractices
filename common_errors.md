@@ -16,4 +16,7 @@
         
 ## 4.9 BST Sequences
     - To simplify push/pop use Stack<T>, which can be an argument to ArrayList<T> 
-    - The constructor of ArrayList<Integer> is ambigous.   
+    - The constructor of ArrayList<Integer> is ambigous.
+    
+## 4.10 subtree
+    - empty tree is subtree of any tree including itself   
