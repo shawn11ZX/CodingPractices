@@ -22,4 +22,7 @@
     - empty tree is subtree of any tree including itself
     
 ## 4.11 tree random node
-    - Random.nextInt maybe negative, use nextInt(bound) instead of nextInt() % bound   
+    - Random.nextInt maybe negative, use nextInt(bound) instead of nextInt() % bound
+    
+## 4.12 sum of tree path
+    - to compute time complexity for a tree related algorithm, conside balanced and non-balance (such as a list) seperately
