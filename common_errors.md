@@ -31,3 +31,5 @@
 ## 5.4 next larger / next smaller with same 1 bits
     - *when calculating count in loop, distinguish between 'count' and 'offset'*
     - start with easy solution, then optimized.
+    - precedence of shift is smaller than minus, ```i<<1 - 1``` is diff from ```(i<<1) - 1```
+    - precedence of bitwise operator is smaller than minus, so ```i&1 - 1``` is diff from ```(i&1) - 1```

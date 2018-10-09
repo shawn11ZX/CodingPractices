@@ -49,10 +49,11 @@ public class Q5_4 {
     }
 
     public static int prev(int n) {
+        if (n < 0) return -1;
         int c0 = 0;
         int nc = n;
         while((nc &1) == 1) {
-            nc = nc << 1;
+            nc = nc >> 1;
             c0++;
         }
         int c1 = 0;
@@ -65,12 +66,13 @@ public class Q5_4 {
         int p = c0+c1;
         int rc = n & ~(1 << p);
         rc = rc | (1 << (p-1));
-        rc = rc & (~(1<<(p-1)) - 1);
+        rc = rc & (~((1<<(p-1)) - 1));
         rc = rc | (((1 << c0) - 1) << (c1-1));
         return rc;
     }
 
     public static int prev2(int n) {
+        if (n < 0) return -1;
         int temp = n;
         int c0 = 0;
         int c1 = 0;
