@@ -3,8 +3,8 @@ package Q5;
 public class Q5_1 {
     public static int bitInsertion(int N, int M, int i, int j)
     {
-        int jMask = (1 << (j+1)) - 1;
-        int iMask = (1 << (i+1)) - 1;
+        int jMask = (1 << (j+1)) - 1; // including j
+        int iMask = (1 << (i)) - 1; // not including i
         int mask = jMask ^ iMask;
         mask = ~mask;
 
