@@ -27,3 +27,7 @@
 ## 4.12 sum of tree path
     - to compute time complexity for a tree related algorithm, conside balanced and non-balance (such as a list) seperately
     - when getting the HashMap<sum, count> from a node, we should return two map, one includes current node, the other does not 
+    
+## 5.4 next larger / next smaller with same 1 bits
+    - *when calculating count in loop, distinguish between 'count' and 'offset'*
+    - start with easy solution, then optimized.

@@ -4,17 +4,29 @@ public class Q5_4 {
     
     public static int next(int n)
     {
-        int rightOne = (((n-1)^n) >> 1) + 1;
-        int leftZero = ((n-1)|n) + 1;
-        if  (leftZero == 0)
-            return n;
-        if (rightOne == 0)
-            return n;
-        n = n | leftZero;
-        n = n & (~rightOne);
-        return n;
+        if (n < 0) return -1;
+        int nc = n;
+        int c0 = 0;
+        while( (nc&1) == 0 && nc != 0)
+        {
+            nc = nc >> 1;
+            c0++;
+        }
+        int c1 = 0;
+        while((nc&1) == 1) {
+            nc = nc >> 1;
+            c1++;
+        }
+        int p = c0+c1;
+        if (p == 0 || p == 32)
+            return -1;
+        int rc = n | (1 << p);
+        rc = rc & (~((1 << p) - 1));
+        rc = rc | ((1 << (c1 - 1)) - 1);
+        return rc;
     }
     public static int next2(int n) {
+        if (n < 0) return -1;
         int c = n;
         int c0 = 0;
         int c1 = 0;
