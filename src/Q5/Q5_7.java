@@ -5,8 +5,8 @@ public class Q5_7 {
         int t = 0;
         for (int i = 0; i < 16; i++)
         {
-            int even = n >> (i*2) & 1;
-            int odd = n >> (i*2+1) & 1;
+            int even = (n >> (i*2)) & 1;
+            int odd = (n >> (i*2+1)) & 1;
             t |= even << (i*2+1) | odd << (i*2);
         }
         return t;
