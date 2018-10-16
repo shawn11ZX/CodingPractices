@@ -5,7 +5,7 @@ public class Q5_8 {
     {
         int offset = width / 8 * y + x / 8;
         int bit = x % 8;
-        screen[offset] |= (1 << bit);
+        screen[offset] |= (1 << (7-bit));
     }
     public static void drawLine(byte[] screen, int width, int x1, int x2, int y)
     {
@@ -15,13 +15,12 @@ public class Q5_8 {
             x2 = x1 ^ x2;
             x1 = x1 ^ x2;
         }
-        for (int x = x1; x < x2; x++)
+        for (int x = x1; x <= x2; x++)
         {
             drawPoint(screen, width, x, y);
         }
     }
-    public static void drawLine2(byte[] screen, int width, int x1, int x2, int y)
-    {
+    public static void drawLine2(byte[] screen, int width, int x1, int x2, int y) {
         int start_offset = x1 % 8;
         int first_full_byte = x1 / 8;
         if (start_offset != 0) {
