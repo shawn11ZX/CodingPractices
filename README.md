@@ -1,4 +1,4 @@
-
+# Pitfalls
 ## List iteration
     forget to set cur = cur.next in loops
 ## 4.6 Successor in Binary Search Tree
