@@ -42,7 +42,8 @@
 	- 公式解法：对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
 	- 不等式开方 $a^{2} < b^{2}$  得    $\abs(b) < a < |b| $
 
+$$\sqrt {b} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYyMjY2MDgsNjE0NTIxNzMsMTQyMT
-U4NDY5MiwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNT
+g0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
