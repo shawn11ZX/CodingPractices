@@ -40,8 +40,9 @@
 - [Solving Quadratic Equation](https://en.wikipedia.org/wiki/Quadratic_equation)：
 	- 因式分解法：	如果一元二次方程 ${ ax^{2}+bx+c=0}$ 存在两个实根${ x_{1},x_{2}}$，那么它可以因式分解为${a(x-x_{1})(x-x_{2})=0}$
 	- 公式解法：对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
-	- 不等式开方 $a^{2} < b^{2}$  得 $ -|b| < a < |b| $
+	- 不等式开方 $a^{2} < b^{2}$  得    $\abs(b) < a < |b| $
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDUxMjczOCw2MTQ1MjE3MywxNDIxNT
-g0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTIwODYyMjY2MDgsNjE0NTIxNzMsMTQyMT
+U4NDY5MiwtMTMzMjY1MjIwNF19
 -->
