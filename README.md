@@ -34,3 +34,9 @@
 - start with easy solution, then optimized.
 - precedence of shift is smaller than minus, ```i<<1 - 1``` is diff from ```(i<<1) - 1```
 - precedence of bitwise operator is smaller than minus, so ```i&1 - 1``` is diff from ```(i&1) - 1```
+
+## 6.2 Basketball
+- The simplest way of poss
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ1MjQ4MzkzMF19
+-->
