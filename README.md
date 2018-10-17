@@ -37,7 +37,11 @@
 
 ## 6.2 Basketball
 - The simplest way of possibility calculation is enumerate all cases and add them together.
-- 
+- 一元二次方程有两种解法：
+	- 因式分解法：
+![ax^{2}+bx+c=0](https://wikimedia.org/api/rest_v1/media/math/render/svg/23e70cfa003f402d108ec04d97983fb62f69536e)![x_{1},x_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/188263943645114e27e316cc1be787861e5b67be)，那么它可以因式分解为{\displaystyle a(x-x_{1})(x-x_{2})=0}![{\displaystyle a(x-x_{1})(x-x_{2})=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1217c6c8894ce52beab6cbbd96b31bb6cd9450d3)。
+	- 公式解放：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNzY2NzkyNzAsLTEzMzI2NTIyMDRdfQ
+==
 -->
