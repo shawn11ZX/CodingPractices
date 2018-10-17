@@ -37,11 +37,9 @@
 
 ## 6.2 Basketball
 - The simplest way of possibility calculation is enumerate all cases and add them together.
-- 一元二次方程有两种解法：
+- Solving Quadratic ：
 	- 因式分解法：	如果一元二次方程 ${ ax^{2}+bx+c=0}$ 存在两个实根${ x_{1},x_{2}}$，那么它可以因式分解为${a(x-x_{1})(x-x_{2})=0}$
-	- 公式解法：对于${\displaystyle ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}，它的根可以表示为：
-
-{\displaystyle x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}![x_{{1,2}}={\frac  {-b\pm {\sqrt  {b^{2}-4ac\ }}}{2a}}.](https://wikimedia.org/api/rest_v1/media/math/render/svg/ddcdc99b985b5d370851854c27f1e803c29ebd6a)
+	- 公式解法：对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MDg0MjU0LC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbMTI2MTU0MTgzMiwtMTMzMjY1MjIwNF19
 -->
