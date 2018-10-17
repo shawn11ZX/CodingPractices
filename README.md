@@ -39,8 +39,11 @@
 - The simplest way of possibility calculation is enumerate all cases and add them together.
 - 一元二次方程有两种解法：
 	- 因式分解法：
-![ax^{2}+bx+c=0](https://wikimedia.org/api/rest_v1/media/math/render/svg/23e70cfa003f402d108ec04d97983fb62f69536e)存在两个实根![x_{1},x_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/188263943645114e27e316cc1be787861e5b67be)，那么它可以因式分解为![{\displaystyle a(x-x_{1})(x-x_{2})=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1217c6c8894ce52beab6cbbd96b31bb6cd9450d3)
+	如果一元二次方程{\displaystyle ax^{2}+bx+c=0}![ax^{2}+bx+c=0](https://wikimedia.org/api/rest_v1/media/math/render/svg/23e70cfa003f402d108ec04d97983fb62f69536e)存在两个实根{\displaystyle x_{1},x_{2}}![x_{1},x_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/188263943645114e27e316cc1be787861e5b67be)，那么它可以因式分解为{\displaystyle a(x-x_{1})(x-x_{2})=0}![{\displaystyle a(x-x_{1})(x-x_{2})=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1217c6c8894ce52beab6cbbd96b31bb6cd9450d3)
 	- 公式解法：
+对于![ax^{2}+bx+c=0\qquad \left(a\neq 0\right)](https://wikimedia.org/api/rest_v1/media/math/render/svg/b02b1a6ef983c7c2cbf1fea275d412d6dbea0661)，它的根可以表示为：
+![x_{{1,2}}={\frac  {-b\pm {\sqrt  {b^{2}-4ac\ }}}{2a}}.](https://wikimedia.org/api/rest_v1/media/math/render/svg/ddcdc99b985b5d370851854c27f1e803c29ebd6a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjkzNDcyNCwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbLTEwMzkzODcwMzcsLTEzMzI2NTIyMDRdfQ
+==
 -->
