@@ -36,7 +36,8 @@
 - precedence of bitwise operator is smaller than minus, so ```i&1 - 1``` is diff from ```(i&1) - 1```
 
 ## 6.2 Basketball
-- The simplest way of poss
+- The simplest way of possibility calculation is enumerate all cases and add them together.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQ4MzkzMF19
+eyJoaXN0b3J5IjpbLTEzMzI2NTIyMDRdfQ==
 -->
