@@ -89,7 +89,6 @@ int getRightMost(int[] a, int n) {
 }
 ```
 
-```
 - start at **offset**, iterate **count** times. 
 ``` java
 // index: 0,  1,  2,  3,  4,  5
@@ -109,7 +108,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMj
-A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
-LTEzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbNzk1ODIyMDE5LDE4NTQ5MDI0MTMsNzU3ND
+M3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3Mywx
+NDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
