@@ -49,15 +49,11 @@
 
 ### offset & count in collections
 - **offset**: start with 0, array[0] means the first element
-- **count**: start with 1, array.length == 1 means there is one element
-- idiom 1: start at offset~1~, iterate count times. 
+
+- **count**: e.g. length of array. means number of elements
+
+- idiom 1: start at **offset**, iterate **count** times. 
 ``` java
-int[] a;
-int i = 0;
-for(i = 0; i < count; i++)
-	visit(a[i + offset])
-// at here, i == count, a[offset + count] is just behind the last item being visited
-// e.g.:
 // index: 0,  1,  2,  3,  4,  5
 //                ^           ^
 //             offset     offset_end
@@ -65,7 +61,15 @@ for(i = 0; i < count; i++)
 // count = 3
 // offset_end = 5
 // visited: a[2], a[3], a[4]
+void visit(int[] a, int offset, int count) {
+	int i = 0;
+	for(i = 0; i < count; i++)
+		visit(a[i + offset])
+// at here, i == count, a[offset + count] is just behind the last item being visited
+}
 ```
+
+- idiom 2: find the right most  item at **offset** in an array of **length**.
 
 
 
@@ -75,7 +79,7 @@ for(i = 0; i < count; i++)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ5MzMxNiw3NTc0MzcwNjksMTExMj
+eyJoaXN0b3J5IjpbLTI2MTE2MTE2NSw3NTc0MzcwNjksMTExMj
 A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
 LTEzMzI2NTIyMDRdfQ==
 -->
