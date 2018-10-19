@@ -50,12 +50,13 @@
 ### offset & count in collections
 - **offset**: start with 0, array[0] means the first element
 - **count**: start with 1, array.length == 1 means there is one element
-- offset~1~ + count = offset~2~: there are **count** elements between  offset~1~ and  offset~2~
+- offset~1~ + count = offset~2~: there are **count - 1** elements between  offset~1~ and  offset~2~
 
 ```java
 // a1, a2, a3, a4, a5, a6
 // 0,  1,  2,  3,  4,  5
-//    
+//         ^           ^
+//       offset1     offset2 
 // offset1 = 2
 // count = 3
 // offset2 = 5
@@ -64,7 +65,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjQ2ODIxNywxMTEyMDQ5OTgzLDE4Nz
+eyJoaXN0b3J5IjpbMTYzMTUyMjM5OCwxMTEyMDQ5OTgzLDE4Nz
 A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
 NF19
 -->
