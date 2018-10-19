@@ -55,7 +55,7 @@
 ```java
 // a1, a2, a3, a4, a5, a6
 // 0,  1,  2,  3,  4,  5
-//         ^           ^
+//         ^___count___^
 //       offset1     offset2 
 // offset1 = 2
 // count = 3
@@ -65,7 +65,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTUyMjM5OCwxMTEyMDQ5OTgzLDE4Nz
-A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
-NF19
+eyJoaXN0b3J5IjpbNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MD
+UxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0
+XX0=
 -->
