@@ -41,14 +41,18 @@
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
 	* Height of tree:  The height of a tree is the height of its root node.
 	* Depth: The depth of a node is the number of edges from the tree's root node to the node. Depth of root is zero
- [Solving Quadratic Equation](https://en.wikipedia.org/wiki/Quadratic_equation)：
+
+### [Solving Quadratic Equation](https://en.wikipedia.org/wiki/Quadratic_equation)：
 	- 因式分解法：	如果一元二次方程 ${ ax^{2}+bx+c=0}$ 存在两个实根${ x_{1},x_{2}}$，那么它可以因式分解为${a(x-x_{1})(x-x_{2})=0}$
 	- 公式解法：对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
 	- 不等式开方 $a^{2} < b^{2}$  得 x:   $$-|b| < x < |b| $$
 
-
+### offset & count in collections
+- offset: start with 0
+- count
+While iterating through collections, sometimes and index(start with 0) or count(start with 1) is used.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTExODk0MCwxMTEyMDQ5OTgzLDE4Nz
-A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
-NF19
+eyJoaXN0b3J5IjpbLTE2MTkyMDA1MTcsMTExMjA0OTk4MywxOD
+cwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIy
+MDRdfQ==
 -->
