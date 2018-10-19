@@ -48,11 +48,11 @@
 	- 不等式开方 $a^{2} < b^{2}$  得 x:   $$-|b| < x < |b| $$
 
 ### offset & count in collections
-- offset: start with 0
-- count
-While iterating through collections, sometimes and index(start with 0) or count(start with 1) is used.
+- **offset**: start with 0, array[0] means the first element
+- **count**: start with 1, array.length == 1 means there is one element
+- offset + count = offset^2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkyMDA1MTcsMTExMjA0OTk4MywxOD
-cwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIy
-MDRdfQ==
+eyJoaXN0b3J5IjpbMTE5NjQwMjYyOSwxMTEyMDQ5OTgzLDE4Nz
+A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
+NF19
 -->
