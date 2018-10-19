@@ -57,10 +57,12 @@
 // index: 0,  1,  2,  3,  4,  5
 //                ^           ^
 //             offset     offset_end
-// offset = 2
-// count = 3
-// visited: a[2], a[3], a[4]
-// offset_end = 5
+// input:
+// 		offset = 2
+// 		count = 3
+// after run:
+// 		visited: a[2], a[3], a[4]
+// 		offset_end = 5
 void visit(int[] a, int offset, int count) {
 	int i = 0;
 	for(i = 0; i < count; i++)
@@ -71,14 +73,16 @@ void visit(int[] a, int offset, int count) {
 
 - idiom 2: find the '**nth**' right most  item in an array of **length**.
 
-```
+```java
 // index: 0,  1,  2,  3,  4,  5
 //                    ^
-//                   3r
+//                   3rd most right
 // length = 6
 // nth = 3
-// visited: a[2], a[3], a[4]
-// offset_end = 5
+
+int getRightMost(int[] a, int n) {
+	
+}
 ```
 
 
@@ -87,7 +91,7 @@ void visit(int[] a, int offset, int count) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTE4MTM1NSw3NTc0MzcwNjksMTExMj
-A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
-LTEzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbNjUyMzE3ODIsNzU3NDM3MDY5LDExMTIwND
+k5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0x
+MzMyNjUyMjA0XX0=
 -->
