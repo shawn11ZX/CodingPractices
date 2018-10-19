@@ -56,20 +56,17 @@ int[] a;
 int i = 0;
 for(i = 0; i < count; i++)
 	visit(a[i + offset])
-// here, i == count, a[offset + count] is just behind the last item being visited
-
-// a1, a2, a3, a4, a5, a6
-// 0,  1,  2,  3,  4,  5
-//         ^           ^
-//       offset1     offset2 
-// offset1 = 2
+// at here, i == count, a[offset + count] is just behind the last item being visited
+// e.g.:
+// index: 0,  1,  2,  3,  4,  5
+//                ^           ^
+//             offset     offset_end
+// offset = 2
 // count = 3
-// offset2 = 5
+// offset_end = 5
+// visited: a[2], a[3], a[4]
 ```
-```
-offset~2~: there are **count - 1** elements between  offset~1~ and  offset~2~
 
-```java
 
 
 
@@ -78,7 +75,7 @@ offset~2~: there are **count - 1** elements between  offset~1~ and  offset~2~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0Njk1MDUsNzU3NDM3MDY5LDExMT
-IwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0Njky
-LC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTE1MDQ5MzMxNiw3NTc0MzcwNjksMTExMj
+A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
+LTEzMzI2NTIyMDRdfQ==
 -->
