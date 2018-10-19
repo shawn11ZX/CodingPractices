@@ -86,6 +86,8 @@ int getRightMost(int[] a, int n) {
 	int leftMost = leftCount + 1; // it is the leftMost item to the left
 	int offset = leftMost - 1; // it's offset is count-1
 	return a[offset];
+	// or 
+	return a[a.length - n];
 }
 ```
 
@@ -108,7 +110,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1ODIyMDE5LDE4NTQ5MDI0MTMsNzU3ND
-M3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3Mywx
-NDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1Nz
+QzNzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMs
+MTQyMTU4NDY5MiwtMTMzMjY1MjIwNF19
 -->
