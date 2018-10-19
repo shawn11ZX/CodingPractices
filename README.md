@@ -60,7 +60,7 @@
 // input:
 // 		offset = 2
 // 		count = 3
-// after run:
+// output:
 // 		visited: a[2], a[3], a[4]
 // 		offset_end = 5
 void visit(int[] a, int offset, int count) {
@@ -75,13 +75,15 @@ void visit(int[] a, int offset, int count) {
 
 ```java
 // index: 0,  1,  2,  3,  4,  5
-//                    ^
-//                   3rd most right
-// length = 6
-// nth = 3
-
+//                ^
+//               4th most right
+// input:
+// 		length = 6
+// 		nth = 4
+// output:
+//		2
 int getRightMost(int[] a, int n) {
-	
+	int leftCount = a.length - n; // there are leftCount items of the lev
 }
 ```
 
@@ -91,7 +93,7 @@ int getRightMost(int[] a, int n) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMzE3ODIsNzU3NDM3MDY5LDExMTIwND
-k5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0x
-MzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTE1MTMwMTcxOTEsNzU3NDM3MDY5LDExMT
+IwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0Njky
+LC0xMzMyNjUyMjA0XX0=
 -->
