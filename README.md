@@ -57,7 +57,7 @@ Two different concepts:
 
 #### idioms 
 - find the **nth** item to the left of an array
-```
+```java
 // index: 0,  1,  2,  3,  4,  5
 //                ^
 //               3th most to the left
@@ -65,17 +65,19 @@ Two different concepts:
 // 		nth = 3
 // output:
 //		2, that is a[nth-1]
-int getLeftMost(int[] a, 
+int getLeftMost(int[] a, int nth) {
+	return a[nth - 1];
+}
 ```
 
-- find the '**nth**' item to the right of an array of **length**.
+- find the '**nth**' item to the right of an array.
 
 ```java
 // index: 0,  1,  2,  3,  4,  5
 //                ^
 //               4th most right
 // input:
-// 		length = 6
+// 		array length = 6
 // 		nth = 4
 // output:
 //		2, that is a[length-nth]
@@ -107,7 +109,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg5MTQ5MSw3NTc0MzcwNjksMTExMj
+eyJoaXN0b3J5IjpbMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMj
 A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
 LTEzMzI2NTIyMDRdfQ==
 -->
