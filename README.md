@@ -59,8 +59,8 @@
 //             offset     offset_end
 // offset = 2
 // count = 3
-// offset_end = 5
 // visited: a[2], a[3], a[4]
+// offset_end = 5
 void visit(int[] a, int offset, int count) {
 	int i = 0;
 	for(i = 0; i < count; i++)
@@ -69,9 +69,17 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 
-- idiom 2: find the right most  item at **offset** in an array of **length**.
+- idiom 2: find the '**nth**' right most  item in an array of **length**.
 
-
+```
+// index: 0,  1,  2,  3,  4,  5
+//                    ^
+//                   3r
+// length = 6
+// nth = 3
+// visited: a[2], a[3], a[4]
+// offset_end = 5
+```
 
 
 
@@ -79,7 +87,7 @@ void visit(int[] a, int offset, int count) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTE2MTE2NSw3NTc0MzcwNjksMTExMj
+eyJoaXN0b3J5IjpbMTM0MTE4MTM1NSw3NTc0MzcwNjksMTExMj
 A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
 LTEzMzI2NTIyMDRdfQ==
 -->
