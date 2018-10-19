@@ -56,23 +56,16 @@ Two different concepts:
 - **count**: e.g. number of elements, e.g. a.length
 
 #### idioms 
-- start at **offset**, iterate **count** times. 
-``` java
+- find the **nth** item to the left of an array
+```
 // index: 0,  1,  2,  3,  4,  5
-//                ^           ^
-//             offset     offset_end
+//                ^
+//               3th most to the left
 // input:
-// 		offset = 2
-// 		count = 3
+// 		nth = 3
 // output:
-// 		visited: a[2], a[3], a[4]
-// 		offset_end = 5
-void visit(int[] a, int offset, int count) {
-	int i = 0;
-	for(i = 0; i < count; i++)
-		visit(a[i + offset])
-// at here, i == count, a[offset + count] is just behind the last item being visited
-}
+//		2, that is a[nth-1]
+int getLeftMost(int[] a, 
 ```
 
 - find the '**nth**' item to the right of an array of **length**.
@@ -94,13 +87,27 @@ int getRightMost(int[] a, int n) {
 }
 ```
 
-
-
-
-
-
+```
+- start at **offset**, iterate **count** times. 
+``` java
+// index: 0,  1,  2,  3,  4,  5
+//                ^           ^
+//             offset     offset_end
+// input:
+// 		offset = 2
+// 		count = 3
+// output:
+// 		visited: a[2], a[3], a[4]
+// 		offset_end = 5
+void visit(int[] a, int offset, int count) {
+	int i = 0;
+	for(i = 0; i < count; i++)
+		visit(a[i + offset])
+// at here, i == count, a[offset + count] is just behind the last item being visited
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ0NzQ5NzksNzU3NDM3MDY5LDExMT
-IwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0Njky
-LC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTEyODg5MTQ5MSw3NTc0MzcwNjksMTExMj
+A0OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIs
+LTEzMzI2NTIyMDRdfQ==
 -->
