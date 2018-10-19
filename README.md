@@ -50,9 +50,11 @@
 ### offset & count in collections
 - **offset**: start with 0, array[0] means the first element
 - **count**: start with 1, array.length == 1 means there is one element
-- offset + count = offset^2
+- offset~1~ + count = offset~2~
+```java
+int getElement(int[] array, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjQwMjYyOSwxMTEyMDQ5OTgzLDE4Nz
-A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
-NF19
+eyJoaXN0b3J5IjpbMzg0MTk4MDg5LDExMTIwNDk5ODMsMTg3MD
+UxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0
+XX0=
 -->
