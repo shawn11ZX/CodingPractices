@@ -50,22 +50,35 @@
 ### offset & count in collections
 - **offset**: start with 0, array[0] means the first element
 - **count**: start with 1, array.length == 1 means there is one element
-- offset~1~ + count = offset~2~: there are **count - 1** elements between  offset~1~ and  offset~2~
+- idiom 1: start at offset~1~, iterate count times. 
+``` java
+int[] a;
+int i = 0;
+for(i = 0; i < count; i++)
+	visit(a[i + offset])
+// here, i == count, a[offset + count] is just behind the last item being visited
 
-```java
 // a1, a2, a3, a4, a5, a6
 // 0,  1,  2,  3,  4,  5
-//         ^___count___^
+//         ^           ^
 //       offset1     offset2 
 // offset1 = 2
 // count = 3
 // offset2 = 5
 ```
+```
+offset~2~: there are **count - 1** elements between  offset~1~ and  offset~2~
+
+```java
+
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MD
-UxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0
-XX0=
+eyJoaXN0b3J5IjpbLTE2ODQ0Njk1MDUsNzU3NDM3MDY5LDExMT
+IwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0Njky
+LC0xMzMyNjUyMjA0XX0=
 -->
