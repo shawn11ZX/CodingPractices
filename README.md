@@ -48,11 +48,15 @@
 	- 不等式开方 $a^{2} < b^{2}$  得 x:   $$-|b| < x < |b| $$
 
 ### offset & count in collections
+
+Two different concepts:
+
 - **offset**: start with 0, array[0] means the first element
 
-- **count**: e.g. length of array. means number of elements
+- **count**: e.g. number of elements, e.g. a.length
 
-- idiom 1: start at **offset**, iterate **count** times. 
+#### idioms 
+- start at **offset**, iterate **count** times. 
 ``` java
 // index: 0,  1,  2,  3,  4,  5
 //                ^           ^
@@ -71,7 +75,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 
-- idiom 2: find the '**nth**' right most  item in an array of **length**.
+- find the '**nth**' item to the right of an array of **length**.
 
 ```java
 // index: 0,  1,  2,  3,  4,  5
@@ -81,11 +85,11 @@ void visit(int[] a, int offset, int count) {
 // 		length = 6
 // 		nth = 4
 // output:
-//		2
+//		2, that is a[length-nth]
 int getRightMost(int[] a, int n) {
 	int leftCount = a.length - n; // there are leftCount items on the left of desired item
-	int leftMost = leftCount + 1; // it is the
-	int offset = leftMost - 1;
+	int leftMost = leftCount + 1; // it is the leftMost item to the left
+	int offset = leftMost - 1; // it's offset is count-1
 	return a[offset];
 }
 ```
@@ -96,7 +100,7 @@ int getRightMost(int[] a, int n) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMzg2NDk1LDc1NzQzNzA2OSwxMTEyMD
-Q5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5Miwt
-MTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbLTEzNDQ0NzQ5NzksNzU3NDM3MDY5LDExMT
+IwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0Njky
+LC0xMzMyNjUyMjA0XX0=
 -->
