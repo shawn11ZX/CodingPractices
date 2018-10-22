@@ -34,7 +34,10 @@
 
 ### 6.2 Basketball
 - The simplest way of possibility calculation is enumerate all cases and add them together.
-- 
+
+### 6.7 Blue Eye
+- Although one did not know the total number of blue eye people, he do know 
+
 ## Tips
 
 ### Definition of Tree height & depth
@@ -110,7 +113,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1Nz
-QzNzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMs
-MTQyMTU4NDY5MiwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbNjcxMTg3OTEyLDE1NTczMTc2NzgsMTg1ND
+kwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4Nzk2
+LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ==
 -->
