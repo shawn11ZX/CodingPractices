@@ -36,7 +36,7 @@
 - The simplest way of possibility calculation is enumerate all cases and add them together.
 
 ### 6.7 Blue Eye
-- Although one did not know the total number of blue eye people, he do know 
+- Although one did not know the total number of blue eyes, he do know the exact number besides himself.
 
 ## Tips
 
@@ -113,7 +113,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMTg3OTEyLDE1NTczMTc2NzgsMTg1ND
-kwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4Nzk2
-LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NT
+Q5MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5
+Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
