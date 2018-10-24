@@ -38,6 +38,9 @@
 ### 6.7 Blue Eye
 - Although one did not know the total number of blue eyes, he do know the exact number besides himself.
 
+### 6.8 The egg drop problem
+- The second egg can also have multiple drops if starting from bottom.
+
 ## Tips
 
 ### Sequence
@@ -130,8 +133,8 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NT
-czMTc2NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4
-MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMz
-I2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbNTI5NDI4NTQyLC0yOTUxNDkxNzMsLTQwMD
+YzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3MDY5
+LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNT
+g0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
