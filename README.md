@@ -42,9 +42,25 @@
 
 ### Sequence
 
+$$a_1, a_2, a_3, ..., a_n$$ 
+where 
+$$a_k = a_{k-1}*r $$ 
+(**r** is called **common ratio**) is called **geometric sequence**. To get sum of which 
+$$ S_n = a_1 + a_2 + a_3+ ...+ a_n$$ 
 $$ 
 \begin{aligned}
 S_n &= a_1(r^n - 1) / (r-1)
+\end{aligned}
+$$
+
+$$ a_k = a_{k-1} + d $$
+(d is called **common difference**) is called **arithmetic sequence**. To get sum of which 
+$$ S_n = a_1 + a_2 + a_3+ ...+ a_n $$
+
+$$
+\begin{aligned}
+2 * S_n &= (a_1 + a_n) * n \\
+S_n &= (a_1 + a_n) * n / 2 
 \end{aligned}
 $$
 
@@ -121,7 +137,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDcwNDE5NjksLTQwMDYzMzY0MiwxNT
+eyJoaXN0b3J5IjpbLTIxMzM5Mjk1NDcsLTQwMDYzMzY0MiwxNT
 U3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5
 ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMz
 MyNjUyMjA0XX0=
