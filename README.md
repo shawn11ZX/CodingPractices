@@ -45,15 +45,14 @@
 
 ### Sequence
 
-Suppose $S_n = a_1 + a_2 + a_3+ ...+ a_n$
-if $a_k = a_{k-1}*r$， then 
-$$ 
-\begin{aligned}
-S_n &= a_1(r^n - 1) / (r-1)
-\end{aligned}
-$$
+Suppose ![
+](https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n)
+if ![
+](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then 
+![
+](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20a_1%28r%5En%20-%201%29%20/%20%28r-1%29%20%5Cend%7Baligned%7D)
 
-if $a_k = a_{k-1} + d$ ， then 
+if  ， then 
 $$
 \begin{aligned}
 S_n &= (a_1 + a_n) * n / 2 
@@ -133,8 +132,8 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NDI4NTQyLC0yOTUxNDkxNzMsLTQwMD
-YzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3MDY5
-LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNT
-g0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTc1MjcwOTU1Niw1Mjk0Mjg1NDIsLTI5NT
+E0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2NzgsMTg1NDkwMjQx
+Myw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4Nzk2LDYxND
+UyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ==
 -->
