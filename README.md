@@ -48,17 +48,12 @@
 Suppose ![
 ](https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n)
 if ![
-](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then 
-![
+](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then ![
 ](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20a_1%28r%5En%20-%201%29%20/%20%28r-1%29%20%5Cend%7Baligned%7D)
 
-if  ， then 
-$$
-\begin{aligned}
-S_n &= (a_1 + a_n) * n / 2 
-\end{aligned}
-$$
-
+if ![
+](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D%20%20%20d) ， then ![
+](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20%28a_1%20%20%20a_n%29%20*%20n%20/%202%20%5Cend%7Baligned%7D)
 ### Definition of Tree height & depth
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
 	* Height of tree:  The height of a tree is the height of its root node.
@@ -132,8 +127,8 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjcwOTU1Niw1Mjk0Mjg1NDIsLTI5NT
-E0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2NzgsMTg1NDkwMjQx
-Myw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4Nzk2LDYxND
-UyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOT
+UxNDkxNzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0
+MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MT
+Q1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
