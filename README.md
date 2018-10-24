@@ -40,6 +40,14 @@
 
 ## Tips
 
+### Sequence
+
+$$ 
+\begin{aligned}
+S_n &= a_1(r^n - 1) / (r-1)
+\end{aligned}
+$$
+
 ### Definition of Tree height & depth
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
 	* Height of tree:  The height of a tree is the height of its root node.
@@ -113,7 +121,8 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NT
-Q5MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5
-Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTIxNDcwNDE5NjksLTQwMDYzMzY0MiwxNT
+U3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5
+ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMz
+MyNjUyMjA0XX0=
 -->
