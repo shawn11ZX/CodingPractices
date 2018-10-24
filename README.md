@@ -42,18 +42,15 @@
 
 ### Sequence
 
-Suppose $ S_n = a_1 + a_2 + a_3+ ...+ a_n$
-if 
-$ a_k = a_{k-1}*r $
-
-then 
+Suppose $S_n = a_1 + a_2 + a_3+ ...+ a_n$
+if $a_k = a_{k-1}*r$， then 
 $$ 
 \begin{aligned}
 S_n &= a_1(r^n - 1) / (r-1)
 \end{aligned}
 $$
-if
-$$ a_k = a_{k-1} + d $$
+
+if $a_k = a_{k-1} + d$ ， then 
 $$
 \begin{aligned}
 S_n &= (a_1 + a_n) * n / 2 
@@ -133,8 +130,8 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNjYyNDYwLC00MDA2MzM2NDIsMTU1Nz
-MxNzY3OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5OTgz
-LDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMj
-Y1MjIwNF19
+eyJoaXN0b3J5IjpbLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NT
+czMTc2NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4
+MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMz
+I2NTIyMDRdfQ==
 -->
