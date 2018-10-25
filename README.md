@@ -47,7 +47,7 @@
 
 Suppose
 
-$$ S_n = a_1 + a_2 + a_3+ ...+ a_n$$ 
+<a href="https://www.codecogs.com/eqnedit.php?latex=S_n&space;=&space;a_1&space;&plus;&space;a_2&space;&plus;&space;a_3&plus;&space;...&plus;&space;a_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_n&space;=&space;a_1&space;&plus;&space;a_2&space;&plus;&space;a_3&plus;&space;...&plus;&space;a_n" title="S_n = a_1 + a_2 + a_3+ ...+ a_n" /></a>
 
 if 
 
@@ -145,9 +145,9 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzU1Mjg1MCwxMjA5MTUwNjE4LC0xNT
-cxODI4NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC00MDA2MzM2
-NDIsMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMT
-EyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5
-MiwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbLTMwNDQ4OTY3MiwxNjc3NTUyODUwLDEyMD
+kxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkx
+NzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNz
+U3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3
+MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
