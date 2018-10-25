@@ -45,8 +45,7 @@
 
 ### Sequence
 
-Suppose ![ss
-](https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n)
+Suppose https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n
 if ![
 ](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then ![
 ](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20a_1%28r%5En%20-%201%29%20/%20%28r-1%29%20%5Cend%7Baligned%7D)
@@ -127,9 +126,9 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODczMTExMiwtMTU3MTgyODQyNCw1Mj
-k0Mjg1NDIsLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2
-NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxOD
-cwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIy
-MDRdfQ==
+eyJoaXN0b3J5IjpbOTA3NDcxNDg2LC0xNTcxODI4NDI0LDUyOT
+QyODU0MiwtMjk1MTQ5MTczLC00MDA2MzM2NDIsMTU1NzMxNzY3
+OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5OTgzLDE4Nz
+A1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIw
+NF19
 -->
