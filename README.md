@@ -65,7 +65,7 @@ Then
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;S_n&space;&=&space;(a_1&space;&plus;&space;a_n)&space;*&space;n&space;/&space;2&space;\end{aligned}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;S_n&space;&=&space;(a_1&space;&plus;&space;a_n)&space;*&space;n&space;/&space;2&space;\end{aligned}" title="\begin{aligned} S_n &= (a_1 + a_n) * n / 2 \end{aligned}" /></a>
 
-### Definition
+### Tree related Definition
 n of Tree height & depth
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
 	* Height of tree:  The height of a tree is the height of its root node.
@@ -146,10 +146,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk3OTI0MDYsLTIzNzI0ODU4NiwxMT
-EwOTQ4Mzk0LDE2Nzc1NTI4NTAsMTIwOTE1MDYxOCwtMTU3MTgy
-ODQyNCw1Mjk0Mjg1NDIsLTI5NTE0OTE3MywtNDAwNjMzNjQyLD
-E1NTczMTc2NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0
-OTk4MywxODcwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLT
-EzMzI2NTIyMDRdfQ==
+eyJoaXN0b3J5IjpbLTkyNzY4OTIwOSwtMjM3MjQ4NTg2LDExMT
+A5NDgzOTQsMTY3NzU1Mjg1MCwxMjA5MTUwNjE4LC0xNTcxODI4
+NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC00MDA2MzM2NDIsMT
+U1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5
+OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMT
+MzMjY1MjIwNF19
 -->
