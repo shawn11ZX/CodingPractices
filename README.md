@@ -51,26 +51,20 @@ Suppose
 
 if 
 
-$$a_k = a_{k-1}*r $$ 
+<a href="https://www.codecogs.com/eqnedit.php?latex=a_k&space;=&space;a_{k-1}*r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_k&space;=&space;a_{k-1}*r" title="a_k = a_{k-1}*r" /></a>
 
 then 
 
-$$ 
-\begin{aligned}
-S_n &= a_1(r^n - 1) / (r-1)
-\end{aligned}
-$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;S_n&space;&=&space;a_1(r^n&space;-&space;1)&space;/&space;(r-1)&space;\end{aligned}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;S_n&space;&=&space;a_1(r^n&space;-&space;1)&space;/&space;(r-1)&space;\end{aligned}" title="\begin{aligned} S_n &= a_1(r^n - 1) / (r-1) \end{aligned}" /></a>
 
 if
 
-$$ a_k = a_{k-1} + d $$
+<a href="https://www.codecogs.com/eqnedit.php?latex=a_k&space;=&space;a_{k-1}&space;&plus;&space;d" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_k&space;=&space;a_{k-1}&space;&plus;&space;d" title="a_k = a_{k-1} + d" /></a>
 
 Then
-$$
-\begin{aligned}
-S_n &= (a_1 + a_n) * n / 2 
-\end{aligned}
-$$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;S_n&space;&=&space;(a_1&space;&plus;&space;a_n)&space;*&space;n&space;/&space;2&space;\end{aligned}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;S_n&space;&=&space;(a_1&space;&plus;&space;a_n)&space;*&space;n&space;/&space;2&space;\end{aligned}" title="\begin{aligned} S_n &= (a_1 + a_n) * n / 2 \end{aligned}" /></a>
+
 ### Definitio
 n of Tree height & depth
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
@@ -145,7 +139,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDQ4OTY3MiwxNjc3NTUyODUwLDEyMD
+eyJoaXN0b3J5IjpbLTY3OTA2Nzg4MCwxNjc3NTUyODUwLDEyMD
 kxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkx
 NzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNz
 U3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3
