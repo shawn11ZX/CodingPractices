@@ -78,8 +78,11 @@ n of Tree height & depth
 <a href="https://www.codecogs.com/eqnedit.php?latex={a(x-x_{1})(x-x_{2})=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{a(x-x_{1})(x-x_{2})=0}" title="{a(x-x_{1})(x-x_{2})=0}" /></a>
 
 #### 公式解法
-对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
-	- 不等式开方 $a^{2} < b^{2}$  得 x:   $$-|b| < x < |b| $$
+对于<a href="https://www.codecogs.com/eqnedit.php?latex={ax^{2}&plus;bx&plus;c=0\qquad&space;\left(a\neq&space;0\right)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{ax^{2}&plus;bx&plus;c=0\qquad&space;\left(a\neq&space;0\right)}" title="{ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}" /></a>，它的根可以表示为：<a href="https://www.codecogs.com/eqnedit.php?latex={&space;x_{1,2}={\frac&space;{-b\pm&space;{\sqrt&space;{b^{2}-4ac\&space;}}}{2a}}.}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{&space;x_{1,2}={\frac&space;{-b\pm&space;{\sqrt&space;{b^{2}-4ac\&space;}}}{2a}}.}" title="{ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}" /></a>
+
+### 不等式开方 
+<a href="https://www.codecogs.com/eqnedit.php?latex=a^{2}&space;<&space;b^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a^{2}&space;<&space;b^{2}" title="a^{2} < b^{2}" /></a>  得 x:   
+<a href="https://www.codecogs.com/eqnedit.php?latex=-|b|&space;<&space;x&space;<&space;|b|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-|b|&space;<&space;x&space;<&space;|b|" title="-|b| < x < |b|" /></a>
 
 ### offset & count in collections
 
@@ -144,9 +147,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDk0ODM5NCwxNjc3NTUyODUwLDEyMD
-kxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkx
-NzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNz
-U3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3
-MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTEwNjkzNTM1MiwxMTEwOTQ4Mzk0LDE2Nz
+c1NTI4NTAsMTIwOTE1MDYxOCwtMTU3MTgyODQyNCw1Mjk0Mjg1
+NDIsLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2NzgsMT
+g1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4
+Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ
+==
 -->
