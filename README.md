@@ -72,7 +72,12 @@ n of Tree height & depth
 	* Depth: The depth of a node is the number of edges from the tree's root node to the node. Depth of root is zero
 
 ### [Solving Quadratic Equation](https://en.wikipedia.org/wiki/Quadratic_equation)：
-	- 因式分解法：	如果一元二次方程 ${ ax^{2}+bx+c=0}$ 存在两个实根${ x_{1},x_{2}}$，那么它可以因式分解为${a(x-x_{1})(x-x_{2})=0}$
+	- 因式分解法：	如果一元二次方程 
+<a href="https://www.codecogs.com/eqnedit.php?latex={&space;ax^{2}&plus;bx&plus;c=0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{&space;ax^{2}&plus;bx&plus;c=0}" title="{ ax^{2}+bx+c=0}" /></a>
+
+存在两个实根
+<a href="https://www.codecogs.com/eqnedit.php?latex={&space;x_{1},x_{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{&space;x_{1},x_{2}}" title="{ x_{1},x_{2}}" /></a>
+，那么它可以因式分解为
 	- 公式解法：对于${ax^{2}+bx+c=0\qquad \left(a\neq 0\right)}$，它的根可以表示为：${ x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac\ }}}{2a}}.}$
 	- 不等式开方 $a^{2} < b^{2}$  得 x:   $$-|b| < x < |b| $$
 
@@ -139,7 +144,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTA2Nzg4MCwxNjc3NTUyODUwLDEyMD
+eyJoaXN0b3J5IjpbMTQ2OTM2NTIzNSwxNjc3NTUyODUwLDEyMD
 kxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkx
 NzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNz
 U3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3
