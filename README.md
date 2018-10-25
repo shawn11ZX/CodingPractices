@@ -45,7 +45,7 @@
 
 ### Sequence
 
-Suppose ![
+Suppose ![ss
 ](https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n)
 if ![
 ](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then ![
@@ -127,8 +127,9 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOT
-UxNDkxNzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0
-MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MT
-Q1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTQ4ODczMTExMiwtMTU3MTgyODQyNCw1Mj
+k0Mjg1NDIsLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2
+NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxOD
+cwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIy
+MDRdfQ==
 -->
