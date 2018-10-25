@@ -45,16 +45,23 @@
 
 ### Sequence
 
-
-Suppose ![Image of Yaktocat](https://latex.codecogs.com/gif.download?S_n%20=%20a_1%20%20%20a_2%20%20%20a_3%20%20...%20%20a_n)
-if ![
-](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D*r)， then ![
-](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20a_1%28r%5En%20-%201%29%20/%20%28r-1%29%20%5Cend%7Baligned%7D)
-
-if ![
-](https://latex.codecogs.com/gif.download?a_k%20=%20a_%7Bk-1%7D%20%20%20d) ， then ![
-](https://latex.codecogs.com/gif.download?%5Cbegin%7Baligned%7D%20S_n%20&=%20%28a_1%20%20%20a_n%29%20*%20n%20/%202%20%5Cend%7Baligned%7D)
-### Definition of Tree height & depth
+$$ S_n = a_1 + a_2 + a_3+ ...+ a_n$$ 
+if 
+$$a_k = a_{k-1}*r $$ 
+$$ 
+\begin{aligned}
+S_n &= a_1(r^n - 1) / (r-1)
+\end{aligned}
+$$
+if
+$$ a_k = a_{k-1} + d $$
+$$
+\begin{aligned}
+S_n &= (a_1 + a_n) * n / 2 
+\end{aligned}
+$$
+### Definitio
+n of Tree height & depth
 	* Height of node: The height of a node is the number of edges on the longest path between that node and a leaf.
 	* Height of tree:  The height of a tree is the height of its root node.
 	* Depth: The depth of a node is the number of edges from the tree's root node to the node. Depth of root is zero
@@ -127,9 +134,9 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTE1MDYxOCwtMTU3MTgyODQyNCw1Mj
-k0Mjg1NDIsLTI5NTE0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2
-NzgsMTg1NDkwMjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxOD
-cwNTE4Nzk2LDYxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIy
-MDRdfQ==
+eyJoaXN0b3J5IjpbMTQzMzA1MTg2NywxMjA5MTUwNjE4LC0xNT
+cxODI4NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC00MDA2MzM2
+NDIsMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMT
+EyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5
+MiwtMTMzMjY1MjIwNF19
 -->
