@@ -47,9 +47,10 @@
 Does it mean on test overall or on test for each strip?
 - 问题的关键在于无毒的soda不会对试纸长生任何作用。所以
 	- 将soda排序后，得到序号N (1<= N <= 1000)
-	- 获得N-1二进制的二进制表示：0Bb~7~b~6~b~5~b~4~b~3~b~2~b~1~b~0~
-	- 将试纸编号: s~9~s~8~s~7~s~6~s~5~s~4~s~3~s~2~s~1~sb~0~
-	- 如果b~i~等于1 S
+	- 获得N-1二进制的二进制表示：N-1 = 0Bb~9~b~8~b~7~b~6~b~5~b~4~b~3~b~2~b~1~b~0~
+	- 将试纸编号: S = s~9~s~8~s~7~s~6~s~5~s~4~s~3~s~2~s~1~sb~0~
+	- 如果b~i~等于1 则S~i~上滴一滴
+	- 最终有毒的是：S~x~ + 1
 
 ## Tips
 
@@ -156,10 +157,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ5MDQ2NjYsLTEzNzY4MDkyOTIsLT
-kyNzY4OTIwOSwtMjM3MjQ4NTg2LDExMTA5NDgzOTQsMTY3NzU1
-Mjg1MCwxMjA5MTUwNjE4LC0xNTcxODI4NDI0LDUyOTQyODU0Mi
-wtMjk1MTQ5MTczLC00MDA2MzM2NDIsMTU1NzMxNzY3OCwxODU0
-OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OT
-YsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbMjEwMzU0MDIyLC0xMzc2ODA5MjkyLC05Mj
+c2ODkyMDksLTIzNzI0ODU4NiwxMTEwOTQ4Mzk0LDE2Nzc1NTI4
+NTAsMTIwOTE1MDYxOCwtMTU3MTgyODQyNCw1Mjk0Mjg1NDIsLT
+I5NTE0OTE3MywtNDAwNjMzNjQyLDE1NTczMTc2NzgsMTg1NDkw
+MjQxMyw3NTc0MzcwNjksMTExMjA0OTk4MywxODcwNTE4Nzk2LD
+YxNDUyMTczLDE0MjE1ODQ2OTIsLTEzMzI2NTIyMDRdfQ==
 -->
