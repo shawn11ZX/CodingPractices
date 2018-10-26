@@ -41,6 +41,11 @@
 ### 6.8 The egg drop problem
 - The second egg can also have multiple drops if starting from bottom.
 
+### 6.10 Poison
+- The meaning of the following sentence is ambiguous:
+>However,  you  can  only  run  tests  once  per  day  and it  takes  seven  days  to  return  a  result. 
+Does it mean on test overall or on 
+
 ## Tips
 
 ### Sequence
@@ -146,10 +151,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzY4OTIwOSwtMjM3MjQ4NTg2LDExMT
-A5NDgzOTQsMTY3NzU1Mjg1MCwxMjA5MTUwNjE4LC0xNTcxODI4
-NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC00MDA2MzM2NDIsMT
-U1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5
-OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMT
-MzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbLTc4MTA0MzQ2OSwtOTI3Njg5MjA5LC0yMz
+cyNDg1ODYsMTExMDk0ODM5NCwxNjc3NTUyODUwLDEyMDkxNTA2
+MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkxNzMsLT
+QwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3
+MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxND
+IxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
