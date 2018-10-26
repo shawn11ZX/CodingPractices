@@ -46,9 +46,10 @@
 >However,  you  can  only  run  tests  once  per  day  and it  takes  seven  days  to  return  a  result. 
 Does it mean on test overall or on test for each strip?
 - 问题的关键在于无毒的soda不会对试纸长生任何作用。所以
-	- 将soda排序后，编成二进制；0Bb~1~b~1~
-	- 10张试纸对应长度为10的二进制；
-	- 
+	- 将soda排序后，得到序号N (1<= N <= 1000)
+	- 获得N-1二进制的二进制表示：0Bb~7~b~6~b~5~b~4~b~3~b~2~b~1~b~0~
+	- 将试纸编号: s~9~s~8~s~7~s~6~s~5~s~4~s~3~s~2~s~1~sb~0~
+	- 如果b~i~等于1 S
 
 ## Tips
 
@@ -155,10 +156,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDc4NzU5OSwtMTM3NjgwOTI5MiwtOT
-I3Njg5MjA5LC0yMzcyNDg1ODYsMTExMDk0ODM5NCwxNjc3NTUy
-ODUwLDEyMDkxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC
-0yOTUxNDkxNzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5
-MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Ni
-w2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTE2MzQ5MDQ2NjYsLTEzNzY4MDkyOTIsLT
+kyNzY4OTIwOSwtMjM3MjQ4NTg2LDExMTA5NDgzOTQsMTY3NzU1
+Mjg1MCwxMjA5MTUwNjE4LC0xNTcxODI4NDI0LDUyOTQyODU0Mi
+wtMjk1MTQ5MTczLC00MDA2MzM2NDIsMTU1NzMxNzY3OCwxODU0
+OTAyNDEzLDc1NzQzNzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OT
+YsNjE0NTIxNzMsMTQyMTU4NDY5MiwtMTMzMjY1MjIwNF19
 -->
