@@ -45,6 +45,7 @@
 - The meaning of the following sentence is ambiguous:
 >However,  you  can  only  run  tests  once  per  day  and it  takes  seven  days  to  return  a  result. 
 Does it mean on test overall or on test for each strip?
+- 问题的关键在于无毒的soda不会对试纸长生任何作用。所以将soda排序后，编成二进制，10张试纸对应长度为10的
 
 ## Tips
 
@@ -151,10 +152,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY4MDkyOTIsLTkyNzY4OTIwOSwtMj
-M3MjQ4NTg2LDExMTA5NDgzOTQsMTY3NzU1Mjg1MCwxMjA5MTUw
-NjE4LC0xNTcxODI4NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC
-00MDA2MzM2NDIsMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQz
-NzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMT
-QyMTU4NDY5MiwtMTMzMjY1MjIwNF19
+eyJoaXN0b3J5IjpbMTQ2MzQ3NTA1OSwtMTM3NjgwOTI5MiwtOT
+I3Njg5MjA5LC0yMzcyNDg1ODYsMTExMDk0ODM5NCwxNjc3NTUy
+ODUwLDEyMDkxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC
+0yOTUxNDkxNzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5
+MDI0MTMsNzU3NDM3MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Ni
+w2MTQ1MjE3MywxNDIxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
 -->
