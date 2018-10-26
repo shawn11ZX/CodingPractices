@@ -44,7 +44,7 @@
 ### 6.10 Poison
 - The meaning of the following sentence is ambiguous:
 >However,  you  can  only  run  tests  once  per  day  and it  takes  seven  days  to  return  a  result. 
-Does it mean on test overall or on 
+Does it mean on test overall or on test for each strip?
 
 ## Tips
 
@@ -151,10 +151,10 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTA0MzQ2OSwtOTI3Njg5MjA5LC0yMz
-cyNDg1ODYsMTExMDk0ODM5NCwxNjc3NTUyODUwLDEyMDkxNTA2
-MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC0yOTUxNDkxNzMsLT
-QwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5MDI0MTMsNzU3NDM3
-MDY5LDExMTIwNDk5ODMsMTg3MDUxODc5Niw2MTQ1MjE3MywxND
-IxNTg0NjkyLC0xMzMyNjUyMjA0XX0=
+eyJoaXN0b3J5IjpbLTEzNzY4MDkyOTIsLTkyNzY4OTIwOSwtMj
+M3MjQ4NTg2LDExMTA5NDgzOTQsMTY3NzU1Mjg1MCwxMjA5MTUw
+NjE4LC0xNTcxODI4NDI0LDUyOTQyODU0MiwtMjk1MTQ5MTczLC
+00MDA2MzM2NDIsMTU1NzMxNzY3OCwxODU0OTAyNDEzLDc1NzQz
+NzA2OSwxMTEyMDQ5OTgzLDE4NzA1MTg3OTYsNjE0NTIxNzMsMT
+QyMTU4NDY5MiwtMTMzMjY1MjIwNF19
 -->
