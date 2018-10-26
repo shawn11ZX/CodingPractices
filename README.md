@@ -46,7 +46,7 @@
 >However,  you  can  only  run  tests  once  per  day  and it  takes  seven  days  to  return  a  result. 
 Does it mean on test overall or on test for each strip?
 - 问题的关键在于无毒的soda不会对试纸长生任何作用。所以
-	- 将soda排序后，编成二进制；0bi~1~
+	- 将soda排序后，编成二进制；0Bb~1~b~1~
 	- 10张试纸对应长度为10的二进制；
 	- 
 
@@ -155,7 +155,7 @@ void visit(int[] a, int offset, int count) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ0OTcyOSwtMTM3NjgwOTI5MiwtOT
+eyJoaXN0b3J5IjpbLTQ1MDc4NzU5OSwtMTM3NjgwOTI5MiwtOT
 I3Njg5MjA5LC0yMzcyNDg1ODYsMTExMDk0ODM5NCwxNjc3NTUy
 ODUwLDEyMDkxNTA2MTgsLTE1NzE4Mjg0MjQsNTI5NDI4NTQyLC
 0yOTUxNDkxNzMsLTQwMDYzMzY0MiwxNTU3MzE3Njc4LDE4NTQ5
