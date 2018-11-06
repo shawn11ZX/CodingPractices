@@ -8,8 +8,8 @@ public class Q8_1 {
         for (int i = 1; i <= n; i++)
         {
             int n2 = i-2;
-            int n1 = n-1;
-            int n3 = n-3;
+            int n1 = i-1;
+            int n3 = i-3;
 
             int c = 0;
             if (n2 >= 0)
@@ -18,7 +18,7 @@ public class Q8_1 {
                 c+= history[n3];
             if (n1 >= 0)
                 c += history[n1];
-            history[n] = c;
+            history[i] = c;
         }
         return history[n];
     }
