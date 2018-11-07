@@ -54,35 +54,36 @@ public class Q8_2 {
 
         public CellType getCell(int r, int c)
         {
-            return data[(r-1) * (c-1) + (c-1)];
+            return data[(r-1) * cols + (c-1)];
         }
         public void setCell(int r, int c, CellType v)
         {
-            data[(r-1) * (c-1) + (c-1)] = v;
+            data[(r-1) * cols + (c-1)] = v;
         }
     }
 
 
     public static boolean findPath(Matrix m, int curRow, int curCol, LinkedList<Cell> rc)
     {
-        if (m.getCell(curCol, curRow) == CellType.Blank.Visited)
+        if (m.getCell(curRow, curCol) != CellType.Blank)
             return false;
-        rc.push(new Cell(curRow, curRow));
+        m.setCell(curRow, curCol, CellType.Visited);
+
+        rc.addLast(new Cell(curRow, curCol));
         if (curRow == m.getRows() && curCol == m.getCols())
             return true;
-        if (curRow < m.getRows() && m.getCell(curRow+1, curCol) == CellType.Blank)
+
+        if (curRow < m.getRows())
         {
-            m.setCell(curRow+1, curCol, CellType.Visited);
             if (findPath(m, curRow+1, curCol, rc))
                 return true;
         }
-        if (curCol < m.getCols() && m.getCell(curRow, curCol+1) == CellType.Blank)
+        if (curCol < m.getCols())
         {
-            m.setCell(curRow, curCol+1, CellType.Visited);
             if (findPath(m, curRow, curCol+1, rc))
                 return true;
         }
-        rc.pop();
+        rc.removeLast();
         return false;
     }
 }

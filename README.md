@@ -52,6 +52,9 @@ Does it mean on test overall or on test for each strip?
 	- 如果b~i~等于1 则S~i~上滴一滴
 	- 最终有毒的是：S~x~ + 1
 
+### 8.2 Robot in a Grid
+- In recursive functions, each node deals with it's own business.
+
 ## Tips
 
 ### Sequence
