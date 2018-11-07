@@ -8,7 +8,7 @@ public class Q8_3 {
     }
 
     private static int search(int[] a, int left, int right) {
-        if (left <= right)
+        if (left >= right)
             return -1;
         int mid = (left+right) / 2;
         if (a[mid] == mid)
