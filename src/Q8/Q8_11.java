@@ -4,12 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q8_11 {
+    public static int hitCount;
     public static int permChanges(int n, int [] changes, int cur, Map m)
     {
-        if (n == 0)
-            return 1;
-        if (m.containsKey(n))
-            return (Integer) m.get(n);
+        int key = (n<<8) | cur;
+        if (m.containsKey(key)) {
+            hitCount++;
+            return (Integer) m.get(key);
+        }
         int change = changes[cur];
         if (cur == changes.length-1)
             return ((n%change) == 0) ? 1: 0;
@@ -17,7 +19,7 @@ public class Q8_11 {
         int rc = 0;
         for(int i = 0; i <= types; i++)
             rc += permChanges(n-i*change, changes, cur+1, m);
-        m.put(n, rc);
+        m.put(key, rc);
         return rc;
     }
     public static int makeChange2(int n) {

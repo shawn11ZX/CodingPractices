@@ -16,6 +16,7 @@ public class Q8_11Test {
 
             Assert.assertEquals("index " + i, exp, real);
         }
+        System.out.println("hit " + Q8_11.hitCount);
     }
 
     @Test
