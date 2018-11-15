@@ -55,6 +55,9 @@ Does it mean on test overall or on test for each strip?
 ### 8.2 Robot in a Grid
 - In recursive functions, each node deals with it's own business.
 
+### 8.11
+- no extra history buffer is need
+- fill old color with new color
 ## Tips
 
 ### Sequence
