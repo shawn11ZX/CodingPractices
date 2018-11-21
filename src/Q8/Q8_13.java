@@ -32,20 +32,23 @@ public class Q8_13 {
 
     public static int maxHeight(Box[] boxSet) {
         Arrays.sort(boxSet);
-        return maxHeight(boxSet, -1);
+        return maxHeight(boxSet, -1, new HashMap<>());
     }
 
-    public static int maxHeight(Box[] boxSet, int prevIndex) {
+    public static int maxHeight(Box[] boxSet, int prevIndex, HashMap<Integer, Integer> history) {
+        if (history.containsKey(prevIndex))
+            return history.get(prevIndex);
         if (prevIndex >= boxSet.length)
             return 0;
         else {
             int maxHeight = 0;
             for (int i = prevIndex + 1; i < boxSet.length; i++) {
                 if (prevIndex == -1 || boxSet[i].canBeAbove(boxSet[prevIndex])) {
-                    int h = maxHeight(boxSet, i);
+                    int h = maxHeight(boxSet, i, history);
                     maxHeight = Math.max(maxHeight, h + boxSet[i].height);
                 }
             }
+            history.put(prevIndex, maxHeight);
             return maxHeight;
         }
     }
