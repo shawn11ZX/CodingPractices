@@ -58,6 +58,9 @@ Does it mean on test overall or on test for each strip?
 ### 8.11
 - no extra history buffer is need
 - fill old color with new color
+
+### 8.14
+- String.substring requires endIndex, not length
 ## Tips
 
 ### Sequence

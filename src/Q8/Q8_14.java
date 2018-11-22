@@ -47,7 +47,7 @@ public class Q8_14 {
         for (int i = 1; i < str.length(); i += 2) {
             char op = str.charAt(i);
             String left = str.substring(0, i);
-            String right = str.substring(i + 1, str.length() - (i + 1));
+            String right = str.substring(i + 1, str.length());
             int count = 0;
             if (op == '|') {
                 if (val) {
@@ -75,15 +75,15 @@ public class Q8_14 {
                     count = countEval(left, false) * countEval(right, false) +
                             countEval(left, true) * countEval(right, true);
                 }
-                total += count;
             }
+            total += count;
         }
         history.put(key, total);
         return total;
     }
 
     boolean stringToBool(String c) {
-        return c.equals("l") ? true : false;
+        return c.equals("1") ? true : false;
     }
 
     int countEval(String s, boolean result, HashMap<String, Integer> memo) {

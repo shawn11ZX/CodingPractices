@@ -21,5 +21,29 @@ public class Q8_14Test {
             Assert.assertEquals(exp, expectFalse, realFalse);
             Assert.assertEquals(exp, expectTrue, realTrue);
         }
+
+        {
+            Q8_14 test = new Q8_14();
+            String exp = "0&0&0&1^1|0";
+            HashMap<String, Integer> his = new HashMap<>();
+            int realFalse = test.countEval(exp, false);
+            int expectFalse = test.countEval(exp, false, his);
+            int realTrue = test.countEval(exp, true);
+            int expectTrue = test.countEval(exp, true, his);
+            Assert.assertEquals(exp, expectFalse, realFalse);
+            Assert.assertEquals(exp, expectTrue, realTrue);
+        }
+
+        {
+            Q8_14 test = new Q8_14();
+            String exp = "0&0&0&1^1|0|1^0|1^0^1&0";
+            HashMap<String, Integer> his = new HashMap<>();
+            int realFalse = test.countEval(exp, false);
+            int expectFalse = test.countEval(exp, false, his);
+            int realTrue = test.countEval(exp, true);
+            int expectTrue = test.countEval(exp, true, his);
+            Assert.assertEquals(exp, expectFalse, realFalse);
+            Assert.assertEquals(exp, expectTrue, realTrue);
+        }
     }
 }
