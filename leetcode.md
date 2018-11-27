@@ -10,7 +10,12 @@ print(s.preprocess("aaaa"))
 print(s.preprocess("abaa"))
 [-1, 0, 0, 1] 
 
+### 31 Next Permutation
+be aware of array with same elements, such as
+[5,1,1]
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQzNTY1ODAsODQzNjUxODA0XX0=
+eyJoaXN0b3J5IjpbNDU3NTQ1NDQ4LC0xNzg0MzU2NTgwLDg0Mz
+Y1MTgwNF19
 -->
