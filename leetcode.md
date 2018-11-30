@@ -14,8 +14,10 @@ print(s.preprocess("abaa"))
 be aware of array with same elements, such as
 [5,1,1]
 
+### 40 Combine sum
+When start reaches len(nums) - 1, dividends <<
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NTQ1NDQ4LC0xNzg0MzU2NTgwLDg0Mz
-Y1MTgwNF19
+eyJoaXN0b3J5IjpbNjE5ODg0NDYxLDQ1NzU0NTQ0OCwtMTc4ND
+M1NjU4MCw4NDM2NTE4MDRdfQ==
 -->
