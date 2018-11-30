@@ -15,9 +15,14 @@ be aware of array with same elements, such as
 [5,1,1]
 
 ### 40 Combine sum
-When start reaches len(nums) - 1, dividends <<
+When start reaches len(nums) - 1, it's a success if:
+
+ - target % divisor == 0
+ - dividends << counts[start] 
+ - **dividents >= 0**, note that dividents can be less then zero
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5ODg0NDYxLDQ1NzU0NTQ0OCwtMTc4ND
-M1NjU4MCw4NDM2NTE4MDRdfQ==
+eyJoaXN0b3J5IjpbLTMwMzk2MzM2OSw0NTc1NDU0NDgsLTE3OD
+QzNTY1ODAsODQzNjUxODA0XX0=
 -->
