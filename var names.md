@@ -1,8 +1,9 @@
+3 * 4 = 12
 multiplicand * multiplier = product
 
+55 ÷ 9 = 6 and 1
+Dividend / Divisor = Quotient and Remainder
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5ODM0NTc5XX0=
+eyJoaXN0b3J5IjpbNTk0MjUzMzc5XX0=
 -->
