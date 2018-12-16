@@ -1,4 +1,6 @@
 ## Quick Sort
+
+
 ```python
 def swap(l, i1, i2):
 	t = l[i1]
@@ -8,8 +10,8 @@ def swap(l, i1, i2):
 def qsort(l, s, e):
 	if s >= e-1:
 		return
-	mid = (s+e)//2
-	swap(l, s, mid)
+	mid = (s+e)//2 # find mid position
+	swap(l, s, mid) # avoid worst case
 	ss = s+1
 	ee = e-1
 	while ss <= ee:
@@ -28,5 +30,5 @@ def qsort(l, s, e):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI1NzQ1OCwxNzYyMDcwOTIxXX0=
+eyJoaXN0b3J5IjpbMjUwMTI1MjQ4LDE3NjIwNzA5MjFdfQ==
 -->
