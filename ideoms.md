@@ -1,7 +1,7 @@
 ## Quick Sort
 ```python
 def qsort(l, s, e):
-	if s >= e:
+	if s >= e-1:
 		return
 	mid = (s+e)//2
 	swap(l, s, mid)
@@ -16,12 +16,13 @@ def qsort(l, s, e):
 		if ss < ee:
 			swap(l, ss, ee)
 	swap(l, ss-1, s)
-	qsort(
+	qsort(l, s, ss-1)
+	qsort(l, ss, e)
 ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMDQwMDc4XX0=
+eyJoaXN0b3J5IjpbMTc2MjA3MDkyMV19
 -->
