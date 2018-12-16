@@ -29,11 +29,12 @@ def qsort(l, s, e):
     qsort(l, s, ss-1)
     qsort(l, ss, e)
 ```
-After while ss 
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE3OTEwNjAsLTExNTUxOTMzNTMsMj
-UwMTI1MjQ4LDE3NjIwNzA5MjFdfQ==
+eyJoaXN0b3J5IjpbMjQ1NTI2Mjk3LC0xMTU1MTkzMzUzLDI1MD
+EyNTI0OCwxNzYyMDcwOTIxXX0=
 -->
