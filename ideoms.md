@@ -7,7 +7,7 @@ def swap(l, i1, i2):
     l[i1] = l[i2]
     l[i2] = t
 
-# use l[s] is pivot
+# use l[s] is a pivot, for all i in [s+1, ss), l[i] < l[s], for all i in [ss, e) l[i] >= l[s] 
 def divide(l, s, e):
     ss = s + 1
     ee = e - 1
@@ -34,6 +34,6 @@ After while ss
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTg3NDc4LC0xMTU1MTkzMzUzLDI1MD
-EyNTI0OCwxNzYyMDcwOTIxXX0=
+eyJoaXN0b3J5IjpbLTE1NDE3OTEwNjAsLTExNTUxOTMzNTMsMj
+UwMTI1MjQ4LDE3NjIwNzA5MjFdfQ==
 -->
