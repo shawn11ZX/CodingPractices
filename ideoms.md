@@ -25,10 +25,11 @@ def qsort(l, s, e):
 	qsort(l, s, ss-1)
 	qsort(l, ss, e)
 ```
-
+For each loop, l[ss] 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTI1MjQ4LDE3NjIwNzA5MjFdfQ==
+eyJoaXN0b3J5IjpbLTExNDc2MTAzOCwyNTAxMjUyNDgsMTc2Mj
+A3MDkyMV19
 -->
