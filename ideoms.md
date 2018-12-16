@@ -15,12 +15,13 @@ def qsort(l, s, e):
 			ee-=1
 		if ss < ee:
 			swap(l, ss, ee)
-	
+	swap(l, ss-1, s)
+	qsort(
 ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE0OTUzNDJdfQ==
+eyJoaXN0b3J5IjpbMzQyMDQwMDc4XX0=
 -->
