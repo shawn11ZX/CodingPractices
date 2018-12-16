@@ -5,7 +5,9 @@ def swap(l, i1, i2):
 
 
 # use l[s] is a pivot
-# after partial sort, for all i in [s+1, ss), l[i] < l[s], for all i in [ss, e) l[i] >= l[s]
+# after partial sort, the following conditions are met:
+# - for all i in [s+1, ss), l[i] < l[s]
+# - for all i in [ss, e), l[i] >= l[s]
 def partial_sort(l, s, e):
     ss = s + 1
     ee = e - 1
