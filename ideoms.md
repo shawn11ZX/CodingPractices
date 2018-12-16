@@ -25,11 +25,12 @@ def qsort(l, s, e):
 	qsort(l, s, ss-1)
 	qsort(l, ss, e)
 ```
-For each loop, l[ss] 
+For each loop, there are the following invariants:
+l[ss-1] < l[s] 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc2MTAzOCwyNTAxMjUyNDgsMTc2Mj
+eyJoaXN0b3J5IjpbLTkxMDE2MTA0NiwyNTAxMjUyNDgsMTc2Mj
 A3MDkyMV19
 -->
